@@ -2,7 +2,7 @@ export function fetchTech() {
   //return the actual action to do
   return function (dispatch) {
     fetch(
-      "http://newsapi.org/v2/top-headlines?" +
+      "https://newsapi.org/v2/top-headlines?" +
         "country=us&" +
         "apiKey=ee3c0c4aa66a4748bd6d2c160da9fc73"
     )
